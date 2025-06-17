@@ -1,0 +1,24 @@
+# --- PyCharm ---
+# Pasta de configuração do projeto
+.idea/
+# Arquivos de projeto individuais
+*.iml
+*.iws
+*.ipr
+
+# --- Pytest ---
+# Cache interno do pytest
+.pytest_cache/
+# Relatórios de cobertura do pytest
+htmlcov/
+# Arquivos de dados de cobertura
+.coverage
+.coverage.*
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+*.egg-info/
+
+venv
